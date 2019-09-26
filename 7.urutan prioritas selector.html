@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--1. Inline style, yakni style yang langsung melekat pada tag -->
+    <!--2. Internal style,yakni style yang diklarasikan pada awal halaman tag -->
+    <!--3. Ekternal style, yakni style yang di deklarasikan pada sebuah file .css -->
+    <title>Contoh Kasus Cascading CSS</title>
+        <link rel="stylesheet" type="text/css"
+            href="prioritas.css">
+                <style type="text/css">
+                    h2 {
+                        color:red;
+                        }
+                </style>
+</head>
+    <body>
+        <h2>
+            Akan berwarna apa saya?..1
+        </h2>
+                <h2 style="color:green">
+                    Akan berwarna apa saya?..2
+                </h2>
+</body>
+</html>

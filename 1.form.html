@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <!-- awal mulai header -->
+    <head>
+        <meta charset="utf-8" />
+            <title>Belajar Form</title>
+                <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+<body><!-- Mulai membuat form -->
+    <form action="https://wa.me/6285748545517" method="get"> <!-- mulai memasukan link wa ke form-->
+        Nama: <input type="text" name="nama" value="" /><!-- Membuat form isi nama-->
+     <br />
+         NIM : <input type="nim" name="nim" value="" /><!-- Membuat form isi nim-->
+     <br />
+        Jenis Kelamin :
+                    <input type="radio" name="jenis_kelamin" value="laki-laki"
+                        checked /><!-- Membuat form isi alat kelamin dengan tipe radio-->
+                            Laki - Laki
+                                <input type="radio" name="jenis_kelamin" value="perempuan" />
+                                    Perempuan
+    <br />
+        Penilaian WEBSITE: <input type="checkbox" name="Biasa" /> Biasa
+            <input type="checkbox" name="Bagus" checked />Bagus
+                <input type="checkbox" name="Sangat_bagus" /> Sangat Bagus <!-- Membuat form penilaian web dengan tipe checkbox-->
+    <br />
+        Prodi Jurusan:
+            <select name="prodi_jurusan" >
+                <option value="tkk"> Teknik Komputer</option>
+                    <option>Management Informatika</option>
+                        <option value="tif" selected>Teknik Informatika</option><!-- Membuat form isi alat kelamin dengan tipe option agar pengguna dapat memilih dengan klik-->
+                        </select>
+    <br />
+        Komentar Anda:        
+            <textarea name="komentar" rows="5" cols="20">
+                Silahkan berikan saran pada web
+                    </textarea><!--Objek form textarea digunakan untuk membuat text inputan yang bisa menampung lebih dari 1 baris inputan.-->
+    <br />
+        <input type="submit" value="Mulai Proses!" >
+            <!--Objek form textarea digunakan untuk membuat text inputan yang bisa menampung lebih dari 1 baris inputan.-->
+    </form>
+</body>
+<div id="footer"><!--membuat footer dengan id footer di main.css -->
+<p>Footer - Copyright Jti.polije 2014</p>
+</div>
